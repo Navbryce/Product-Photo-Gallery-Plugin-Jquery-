@@ -1,0 +1,25 @@
+.nav-product-gallery{
+	display: flex;
+	justify-content: flex-end;
+}
+.nav-gallery-nav{
+	display: flex;
+	flex-direction: column;
+}
+.nav-gallery-nav>img{
+	margin-bottom: 5px;
+	width: 60px;
+	height: 70px;
+	object-fit: cover;
+}
+.nav-gallery-image-display{
+	margin-left: 5px;
+}
+.nav-gallery-image-display img{
+	width: calc(60px*6);
+	height:calc(70px * 6);
+	object-fit: cover;
+}
+.nav-gallery-nav img:hover{
+	cursor: pointer;
+}
