@@ -10,7 +10,7 @@ jQuery plugin that creates an amazon-like photo slider. Basically, a column of s
 - Include the "nav-product-gallery.js" and "NavProductGallery.css" on the page with photo gallery
 
 # Use
-**Gallery HTML: **  
+**Gallery HTML:**  
 The example below uses a bootstrap class "col-md-4", this is optional. All other classes are required. The images inside the div with class "nav-gallery-nav" are the thumbnail images/the images in the gallery. The image in the div with class "nav-gallery-image-display" is the default image of the slider (when the page first loads).  
 ```
 <div class="col-md-4">
@@ -27,7 +27,7 @@ The example below uses a bootstrap class "col-md-4", this is optional. All other
 </div>
 ```
 
-**Intialize Gallery: **
+**Intialize Gallery:**
 To initialize a gallery: ```new NavProductGallery(container, settings)```  
 *Container* - a DOM object not a jQuery object  
 *Settings* - A JavaScript Dictionary/Object  
