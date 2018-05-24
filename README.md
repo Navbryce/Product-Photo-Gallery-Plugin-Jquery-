@@ -28,7 +28,7 @@ The example below uses a bootstrap class "col-md-4", this is optional. All other
 ```
 
 **Intialize Gallery:**  
-To initialize a gallery: ```new NavProductGallery(container, settings)```  
+To initialize a gallery: ```new NavProductGallery(container, settings);```  
 *Container* - a DOM object not a jQuery object  
 *Settings* - A JavaScript Dictionary/Object  
 ```
