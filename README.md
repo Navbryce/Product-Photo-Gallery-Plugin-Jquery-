@@ -9,10 +9,10 @@ jQuery plugin that creates an amazon-like photo slider. Basically, a column of s
 **Installation**:
 - Include the "nav-product-gallery.js" and "NavProductGallery.css" on the page with photo gallery
 
-**Use**
-```new NavProductGallery(container, settings)```
-*Container* - a DOM object not a jQuery object
-*Settings* - A JavaScript Dictionary/Object
+**Use**  
+```new NavProductGallery(container, settings)```  
+*Container* - a DOM object not a jQuery object  
+*Settings* - A JavaScript Dictionary/Object  
 ```
 {
   effect: "fade", // currently the only option (don't include "effect" key if you don't want an effect
